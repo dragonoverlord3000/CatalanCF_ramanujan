@@ -7,7 +7,7 @@ from ramanujan.poly_domains.CartesianProductPolyDomain import CartesianProductPo
 from ramanujan.enumerators.EfficientGCFEnumerator import EfficientGCFEnumerator
 
 # Setup search
-saved_hash = 'G_lhs_dept10'
+saved_hash = 'G_lhs_dept5'
 lhs_coefs_range = 10
 lhs = LHSHashTable(saved_hash,
 lhs_coefs_range, [g_const_dict['catalan']])
@@ -28,5 +28,5 @@ results = enumerator.full_execution()
 # Display results
 print("------------------------------------ R E S U L T S ------------------------------------")
 enumerator.print_results(results)
-
+print(results)
 
